@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Information</title>
+</head>
+<body>
+    <?php
+    // Define variables with personal information
+    $name = "Md.Abdulla Al Mamun";
+    $age = 22;
+    $country = "Bangladesh";
+    $introduction = "Hello, I am Mamun. I live in the bangladesh and I'm 22 years old.";
+
+    // Display personal information using the echo statement
+    echo "<h1>Personal Information</h1>";
+    echo "<p><strong>Name:</strong> $name</p>";
+    echo "<p><strong>Age:</strong> $age</p>";
+    echo "<p><strong>Country:</strong> $country</p>";
+    echo "<p><strong>Introduction:</strong> $introduction</p>";
+    ?>
+</body>
+</html>
